@@ -1,0 +1,75 @@
+div {
+	display: block;
+}
+
+
+.background {
+	width: 100%;
+	height: 950px;
+	position: relative;
+}
+
+.jeqsona {
+	width: 110px;
+    height: 180px;
+    position: absolute;
+    top: 639px;
+    left: 1000px;
+    animation: jeqsona 5s infinite;
+}
+
+@keyframes jeqsona {
+	from {left: 0px;}
+	to{left: 1300px;}
+}
+
+.cucqi {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 700px;
+	left: 1583px;
+	animation: cucqi 3s infinite;
+	animation-duration: cucqi 3s;
+}
+
+.cucqi:hover {
+	transform: scale(1.1);
+}
+
+@keyframes cucqi {
+	from {left: 1500px}
+	to {left: 1300px}
+}
+
+.jump {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 700px;
+	left: 800px;
+	animation: jump 2s infinite;
+}
+
+@keyframes jump {
+	from {top: 300px}
+	to {top: 700px}
+}
+
+
+
+.kostuma {
+	position: absolute;
+	top: 700px;
+	width: 150px;
+	height: 150px;
+	left: 50px;
+	animation: kostuma 5s infinite;
+}
+
+@keyframes kostuma {
+	25% {left: 50px}
+	50% {top: 600px}
+	75% {right: 50px}
+	100% {top: 700px}
+}
